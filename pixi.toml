@@ -1,0 +1,13 @@
+[project]
+name = "urssi-pixi-demo"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Ella Kane <elk84@pitt.edu>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+
+[dependencies]
+scipy = ">=1.14.0,<2"
+matplotlib = ">=3.9.1,<4"
